@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VSA Organizer</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <div id="main-div">
+      <h1>Search For A Specific Student!</h1>
+      <h2>Enter The Student's Name</h2>
+      <form class="input-form" id="query-form">
+        <fieldset>
+          <label for="name-field">Enter Your Student's Name: </label>
+          <input type="text" placeholder="Ex Milanna..." class="vsa_write-input input-font" id="query-field" required>
+          <button type="submit" class="main-btn btn-resize">Submit</button>
+          <button type="reset" class="main-btn btn-resize">Reset</button>
+        </fieldset>
+      </form>
+      <textarea class="textarea-font" id="query-textarea-output" cols="50" rows="10" readonly></textarea>
+      <br>
+      <a href="index.html">
+        <button class="main-btn custom-btn-return">Return Home</button>
+      </a>
+      <br>
+      <img src="/assets/vsa_img.png" id="vsa-img">
+    </div>
+  </body>
+</html>
